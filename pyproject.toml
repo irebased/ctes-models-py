@@ -1,6 +1,6 @@
 [project]
 name = "ctes-models-py"
-version = "0.0.3"
+version = "0.0.4"
 authors = [
   { name="Rebase", email="rebased.again@gmail.com" },
 ]
@@ -13,3 +13,6 @@ classifiers = [
 ]
 license = "MIT"
 license-files = ["LICEN[CS]E*"]
+dependencies = [
+    "protobuf>=6.33.4"
+]

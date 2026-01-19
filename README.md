@@ -9,7 +9,14 @@ First, install the package with `pip install ctes-models-py`.
 Example usage of the models:
 
 ```py
-# TODO
+import ctes_models_py.model as ct
+
+b = bytes.fromhex('aa bc de ff') # Convert hex to bytes
+my_ct_encoding = ct.EncodingMetadata(encoding=ct.Encoding.BASE_CONVERSION, base=16)
+my_ct_metadata = ct.CiphertextMetadata(type='', encoding=my_ct_encoding)
+my_ct = ct.Ciphertext(bytes=b, metadata=my_ct_metadata)
+print(my_ct) # Ciphertext bytes
+print(my_ct.bytes.hex(' ')) # Ciphertext converted back to hex
 ```
 
 ## Generating the model
