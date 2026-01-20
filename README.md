@@ -1,6 +1,8 @@
-# C# Ciphertext Ecosystem Python Models
+## Ciphertext Ecosystem Python Models
 
 This dependency defines the models for the ciphertext ecosystem, used for building tools that will help solve unsolved ciphers.
+
+The model is a generated model using Protobuf.
 
 ## Usage
 

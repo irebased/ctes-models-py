@@ -1,6 +1,6 @@
 [project]
 name = "ctes-models-py"
-version = "0.0.4"
+version = "0.1.0"
 authors = [
   { name="Rebase", email="rebased.again@gmail.com" },
 ]
